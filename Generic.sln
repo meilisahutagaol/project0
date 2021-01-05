@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D2C0621-6D94-4382-876E-91ACC00DB6E1}"
+	ProjectSection(SolutionItems) = preProject
+		styles.css = styles.css
+		upload.html = upload.html
+		ListUserStories.html = ListUserStories.html
+		Login.html = Login.html
+		Upload.js = Upload.js
+		server.js = server.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{06D437AA-3435-47FC-ACC6-A438D594BC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{AF99485C-1EF5-485F-9C90-509946AE7CE0}"
+	ProjectSection(SolutionItems) = preProject
+		Logo.svg = Logo.svg
+		login.svg = login.svg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C82D12-B6FC-4AA7-B546-616FB1787079}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF99485C-1EF5-485F-9C90-509946AE7CE0} = {4D2C0621-6D94-4382-876E-91ACC00DB6E1}
+	EndGlobalSection
+EndGlobal

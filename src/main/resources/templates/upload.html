@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Upload Your Meeting</title>
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+
+
+<body>
+
+    <header>
+        <div class="containerLogo">
+            <img src="assets/Logo.svg" alt="logo" class="logo">
+
+
+            <!--<nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">How It Works</a></li>
+
+                </ul>-->
+
+            <!--</nav>-->
+
+        </div>
+    </header>
+
+
+    <div class="center">
+        <div class="containerUploader">
+            <div class="text">New Meeting</div>
+            <form action="#">
+                <div class="data">
+                    <label> Meeting Title </label>
+                    <input type="text" placeholder="Feature - Login" class="field-name" required />
+                </div>
+
+                <div class="data">
+                    <label>Meeting Date</label>
+                    <input type="date" class="calendar" required/>
+                </div>
+
+                <div class="data">
+                    <label>Meeting Audio or Video </label>
+                    <br />
+                       <input type="file" id="real-file" hidden="hidden"/>
+                    <button type="button" id="custom-button"> Upload File</button>
+                    <span id="custom-text"> No File Choosen Yet</span>
+                    <script type="text/javascript" src="js/Upload.js"></script>
+                </div>
+
+                <div class="btn">
+                   <div class="inner"></div>
+                    <button type="submit">Proceed</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
+

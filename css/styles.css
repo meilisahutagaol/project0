@@ -350,7 +350,7 @@ form .btn button{
     padding: 30px;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     border-radius: 20px;
-    background-image: url(/Generic/assets/login.svg);
+    background: url('../assets/login.svg');
 }
 
 .containerLogin .text {
